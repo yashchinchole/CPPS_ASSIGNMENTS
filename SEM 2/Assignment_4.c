@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int fib(int n)
+long long int fib(int n)
 {
     if (n == 1)
         return 0;
@@ -17,12 +17,12 @@ int fib(int n)
 
 int main()
 {
-    int number;
+    long long int number;
     printf("Enter Number\n");
-    scanf("%d", &number);
+    scanf("%lld", &number);
 
     for (int i = 1; i <= number; i++)
-        printf("%d ", fib(i));
+        printf("%lld ", fib(i));
 
     return 0;
 }
