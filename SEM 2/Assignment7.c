@@ -65,69 +65,53 @@ int main()
         printf("\nPin code : %d", cust[i].pin);
 
         if (cust[i].balance > 1000000)
-        {
             printf("\nGOLDEN COUSTOMER\n");
-        }
+
         if (cust[i].balance < 1000000 && cust[i].balance > 500000)
-        {
             printf("\nSILVER COUSTOMER\n");
-        }
+
         if (cust[i].balance < 500000)
-        {
             printf("\nGENRAL COUSTOMER\n");
-        }
+
         if (cust[i].pin == 422001)
-        {
             printf("Geographical location : Delhi\n");
-        }
+
         if (cust[i].pin == 422002)
-        {
             printf("Geographical location : Madhya Pradesh\n");
-        }
+
         if (cust[i].pin == 422003)
-        {
             printf("Geographical location : Gujrat\n");
-        }
+
         if (cust[i].pin == 422004)
-        {
             printf("Geographical location : Maharashtra\n");
-        }
+
         if (cust[i].pin == 422005)
-        {
             printf("Geographical location : Assam\n");
-        }
+
         if (cust[i].pin == 422006)
-        {
             printf("Geographical location : Karnataka\n");
-        }
+
         if (cust[i].pin == 422007)
-        {
             printf("Geographical location : Nagaland\n");
-        }
+
         if (cust[i].pin == 422008)
-        {
             printf("Geographical location : Sikkim\n");
-        }
+
         if (cust[i].pin == 422009)
-        {
             printf("Geographical location : Goa\n");
-        }
+
         if (cust[i].pin == 4220010)
-        {
             printf("Geographical location : Kerala\n");
-        }
+
         if (cust[i].pin == 4220011)
-        {
             printf("Geographical location : Odisha\n");
-        }
+
         if (cust[i].pin == 4220012)
-        {
             printf("Geographical location : Uttar Pradesh\n");
-        }
+
         if (cust[i].pin == 4220013)
-        {
             printf("Geographical location : Arunachal Pradesh\n");
-        }
+
         if ((cust[i].pin < 422001 || cust[i].pin > 422013))
             printf("\nInvalid Pin Code\n");
     }
