@@ -6,7 +6,7 @@
 
 void substring(char str1[], char str2[])
 {
-    int ss;
+    int ss = 1;
     char *p1 = str1, *p2 = str2;
     printf("Enter the main string: \n");
     scanf("%s", str1);
